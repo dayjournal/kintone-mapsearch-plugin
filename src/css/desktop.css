@@ -1,0 +1,20 @@
+html, body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+/*マップ設定*/
+#map {
+    z-index: 0;
+    height: 650px;
+}
+
+/*リストコントロール設定*/
+#list {
+    font-size: 14px;
+    width: 250px;
+    height: 630px;
+    background-color: #fff;
+    overflow: scroll;
+}

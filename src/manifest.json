@@ -1,0 +1,31 @@
+{
+    "manifest_version": 1,
+    "version": 1,
+    "type": "APP",
+    "desktop": {
+        "js": [
+            "https://js.cybozu.com/jquery/3.3.1/jquery.min.js",
+            "https://api.tiles.mapbox.com/mapbox-gl-js/v1.6.0/mapbox-gl.js",
+            "https://cdn.jsdelivr.net/npm/@turf/turf@5/turf.min.js",
+            "js/desktop.js"
+        ],
+        "css": [
+            "https://api.tiles.mapbox.com/mapbox-gl-js/v1.6.0/mapbox-gl.css",
+            "css/51-modern-default.css",
+            "css/desktop.css"
+        ]
+    },
+    "icon": "image/icon.png",
+    "name": {
+        "ja": "マップサーチプラグイン",
+        "en": "Map search plugin"
+    },
+    "description": {
+        "ja": "マップからリストを検索するプラグイン",
+        "en": "A plug-in that searches a list from a map."
+    },
+    "homepage_url": {
+        "ja": "https://github.com/dayjournal",
+        "en": "https://github.com/dayjournal"
+    }
+}
